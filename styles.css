@@ -128,7 +128,7 @@ header {
 }
 
 #hero {
-    background: url("../img/vrglasses2.jpg") no-repeat center center/cover;
+    background: url("img/vrglasses2.jpg") no-repeat center center/cover;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -151,7 +151,7 @@ header {
 }
 
 .clubstars {
-    background: url("../img/starclub.jpg") no-repeat center center/cover;
+    background: url("img/starclub.jpg") no-repeat center center/cover;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -161,7 +161,7 @@ header {
 }
 
 .visitorinfo {
-    background: url("../img/exhibition.jpg") no-repeat center center/cover;
+    background: url("img/exhibition.jpg") no-repeat center center/cover;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
