@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>  
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Community Science Museum</title>
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="img/favicon.ico" type="image/icon">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<meta name="description" content="Explore the wonders of science at our community museum.">
-<head>  
+<meta name="description" content="Come to Community Science Museum to explore the wonders of science and technology.">
   <script src="https://kit.fontawesome.com/a1d60051cd.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
     <input type="checkbox" id="hamburger" class="hamburgerbars" aria-label="Drop down menu">
     <label for="hamburger" class="hamburgerbars" aria-label="Open menu bar"></label>
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main navgiation of the website">
       <ul>
         <li class="link-exhibitions"><a href="exhibitions.html">EXHIBITIONS</a></li>
         <li class="link-information"><a href="information.html">VISITOR INFO</a></li>
-        <li class="navlogocontainer"><a href="index.html"><img id="navlogo" src="img/logo.png"></a></li>
+        <li class="navlogocontainer"><a href="index.html"><img id="navlogo" src="img/logo.png" alt="Community Science Museum logo"></a></li>
         <li class="link-about"><a href="about.html">ABOUT US</a></li>
         <li class="link-tickets"><a href="comingsoon.html" class="cta">BUY TICKETS</a></li>
       </ul>
@@ -27,17 +27,17 @@
 
   <main>
     <section id="hero">
-      <div class="hero-content">
-        <a href="exhibitions.html" class="cta">EXPLORE EXHIBITIONS</a>
+      <div class="hero-content" role="img" aria-label="Young man with virtual reality headset on.">
+        <h1><a href="exhibitions.html" class="cta">EXPLORE EXHIBITIONS</a></h1>
       </div>
     </section>
     <section id="landingpageduo">
       <div class="duocontent">
-       <div class="clubstars"> 
-        <a class="cta" href="comingsoon.html">CLUB STARS</a>
+       <div class="clubstars" role="img" aria-label="Girl solving a science conundrum"> 
+        <h2><a class="cta" href="comingsoon.html">CLUB STARS</a></h2>
       </div>
-      <div class="visitorinfo">  
-      <a class="cta" href="information.html">VISITOR INFORMATION</a>
+      <div class="visitorinfo" role="img" aria-label="An area of the museum interior.">  
+      <h2><a class="cta" href="information.html">VISITOR INFORMATION</a></h2>
       </div>
       </div>
     </section>
@@ -45,9 +45,9 @@
 
   <footer>
     <nav class="footernav">
-      <ul class="footernavs">
+      <div class="footernavs">
         <ul class="footerlogo">
-          <li><a href="index.html"><img id="footerlogo" src="img/logowithtext.png"></a></li>
+          <li><a href="index.html"><img id="footerlogo" src="img/logowithtext.png" alt="Community Science Museum logo with text underneath"></a></li>
         </ul>
         <ul class="footer-getinvolved">
           <li class="footer-getinvolved"><a href="comingsoon.html"><b>GET INVOLVED</b></a></li>
@@ -64,6 +64,7 @@
           <li class="footer-social"><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
           <li class="footer-social"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
       </ul>
+    </div>
     </nav>
   </footer>
 
