@@ -433,7 +433,7 @@ footer {
             width: 40%;
             background-color: var(--nav-color);
             padding: 10px;
-            text-align: left
+            text-align: left;
             color: var(--navtext-color);
 
     }
