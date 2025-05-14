@@ -379,7 +379,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    text-decoration: none;;
+    text-decoration: none;
 }
 
 .footer-social {
